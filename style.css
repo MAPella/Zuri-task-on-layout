@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    text-align: left;
+    background-color: hsl(0, 0%, 95%);
+    padding: 10% 20%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    max-width: 1440px;
+}
+header{
+    background-color: grey;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.sedans{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color:  hsl(31, 77%, 52%);
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color:  hsl(179, 100%, 13%);
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75); 
+    font-size: 15px;
+    font-family: lexend deca; 
+    font-weight: 400;
+    padding: 0% 10% 20% 10%;
+}
+h2{
+    color:  hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    padding-left: 10%;
+}
+button{
+    background-color:  hsl(0, 0%, 95%);
+    border-radius: 20px;
+    height: 40px;
+    width:120px;
+    border: none;
+    font-size: 15px;
+    font-family: Lexend Deca; 
+    font-weight: 400; 
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+img{
+    padding-left: 10%;
+    padding-top: 15%;
+}
+.b1{
+    color:  hsl(31, 77%, 52%);
+}
+.b2{
+    color:  hsl(184, 100%, 22%);
+}
+.b3{
+    color:  hsl(179, 100%, 13%);
+}
+.button1:active{
+    background-color: hsl(31, 77%, 52%);
+    border: white 1px solid;
+    color: hsl(0, 0%, 95%);
+}
+.button2:active{
+    background-color: hsl(184, 100%, 22%);
+    border: white 1px solid;
+    color: hsl(0, 0%, 95%);
+}
+.button3:active{
+    background-color: hsl(179, 100%, 13%);
+    border: white 1px solid;
+    color: hsl(0, 0%, 95%);
+}
